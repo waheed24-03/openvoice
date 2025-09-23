@@ -67,8 +67,7 @@ OpenVoice is a Twitter-inspired social media platform that combines real-time us
    # News Proxy
    NEWS_API_KEY=YOUR_NEWS_API_KEY\
    PORT=5050
-Run the development server:
-
-npm start ```
+   #Run the development server:
+   npm start `
 ---
 
