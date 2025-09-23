@@ -1,13 +1,21 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* File: src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #ffffff;      /* Light Mode Background */
+  --color-secondary: #f7f9f9;    /* Light Mode Cards */
+  --color-accent: #EBCD3E;      /* Default accent color */
+  --color-text-primary: #0f1419; /* Light Mode Main Text */
+  --color-text-secondary: #536471;
+  --color-border: #eff3f4;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.dark {
+  --color-primary: #000000;      /* Dark Mode Background */
+  --color-secondary: #1A1A1A;    /* Dark Mode Cards */
+  --color-text-primary: #e7e9ea; /* Dark Mode Main Text */
+  --color-text-secondary: #71767b;
+  --color-border: #2f3336;
 }

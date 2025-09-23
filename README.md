@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# OpenVoice
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+OpenVoice is a Twitter-inspired social media web app built with **React** and **Supabase**.  
+It features trending topics, live news, profile management, post creation, dark/light modes, and saved posts functionality.  
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Screenshots
 
-### `npm start`
+### 1. Login Page
+![Login Page](images/loginpage.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 2. Home Page
+![Home Page](images/homepage.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 3. Profile Page
+![Profile Page](images/profilepage.png)
 
-### `npm test`
+### 4. Trending Page
+![Trending Page](images/trendingpage.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 5. Saved Posts Page
+![Saved Posts Page](images/savedpage.png)
 
-### `npm run build`
+### 6. Settings Page
+![Settings Page](images/settingspage.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 7. Light Mode
+![Light Mode](images/lightmode.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 8. Creating a Post
+![Creating Post](images/makingpost.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- User authentication (Signup/Login) via Supabase  
+- Post creation with text and images  
+- Trending topics feed & live news integration  
+- Profile management  
+- Dark and Light mode support  
+- Save posts for later  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Tech Stack
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Frontend:** React, TailwindCSS  
+- **Backend:** Supabase (Authentication + Database)  
+- **News API:** Via proxy server  
+- **Deployment:** Vercel / Netlify  
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Setup
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Clone the repo:  
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/openvoice.git
+   cd openvoice
+   Install dependencies:
+   bash
+   Copy code
+   npm install
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
