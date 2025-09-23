@@ -76,3 +76,8 @@ npm start
  ```
 ---
 
+---
+## 👤 Author
+- Syed Abdul Waheed
+
+
