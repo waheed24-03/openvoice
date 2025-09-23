@@ -1,4 +1,4 @@
-# OpenVoice 🗣️
+# OpenVoice 
 
 OpenVoice is a Twitter-inspired social media platform that combines real-time user posts with live news trends. Stay updated, share your thoughts, and explore trending topics seamlessly.
 
