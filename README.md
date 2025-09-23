@@ -58,17 +58,15 @@ OpenVoice is a Twitter-inspired social media platform that combines real-time us
    ```bash
    git clone https://github.com/YOUR_USERNAME/openvoice.git
    cd openvoice
-Install dependencies:
-npm install
-
-Add .env file(s) with your keys:
-# Supabase
-REACT_APP_SUPABASE_URL=YOUR_SUPABASE_URL
-REACT_APP_SUPABASE_ANON_KEY=YOUR_SUPABASE_ANON_KEY
-# News Proxy
-NEWS_API_KEY=YOUR_NEWS_API_KEY
-PORT=5050
-
+   #Install dependencies:
+   npm install
+   #Add .env file(s) with your keys:
+   # Supabase
+   REACT_APP_SUPABASE_URL=YOUR_SUPABASE_URL
+   REACT_APP_SUPABASE_ANON_KEY=YOUR_SUPABASE_ANON_KEY
+   # News Proxy
+   NEWS_API_KEY=YOUR_NEWS_API_KEY\
+   PORT=5050
 Run the development server:
 
 npm start ```
