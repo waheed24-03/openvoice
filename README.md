@@ -1,68 +1,76 @@
-# OpenVoice
+# OpenVoice 🗣️
 
-OpenVoice is a Twitter-inspired social media web app built with **React** and **Supabase**.  
-It features trending topics, live news, profile management, post creation, dark/light modes, and saved posts functionality.  
+OpenVoice is a Twitter-inspired social media platform that combines real-time user posts with live news trends. Stay updated, share your thoughts, and explore trending topics seamlessly.
 
 ---
 
-## Screenshots
+## Features ✨
 
-### 1. Login Page
+- **User Authentication:** Signup/Login using Supabase  
+- **Post Creation:** Share posts with text and images  
+- **Trending Feed:** Explore trending topics and live news integration  
+- **Profile Management:** Edit profile, avatar, and preferences  
+- **Dark & Light Mode:** Switch between themes  
+- **Saved Posts:** Bookmark posts for later  
+
+---
+
+## Screenshots 📸
+
+### Login Page
 ![Login Page](images/loginpage.png)
 
-### 2. Home Page
-![Home Page](images/homepage.png)
+### Homepage / Feed
+![Homepage](images/homepage.png)
 
-### 3. Profile Page
+### Profile Page
 ![Profile Page](images/profilepage.png)
 
-### 4. Trending Page
+### Trending Topics
 ![Trending Page](images/trendingpage.png)
 
-### 5. Saved Posts Page
-![Saved Posts Page](images/savedpage.png)
+### Saved Posts
+![Saved Page](images/savedpage.png)
 
-### 6. Settings Page
+### Settings / Preferences
 ![Settings Page](images/settingspage.png)
 
-### 7. Light Mode
+### Light Mode
 ![Light Mode](images/lightmode.png)
 
-### 8. Creating a Post
+### Creating a Post
 ![Creating Post](images/makingpost.png)
 
 ---
 
-## Features
-
-- User authentication (Signup/Login) via Supabase  
-- Post creation with text and images  
-- Trending topics feed & live news integration  
-- Profile management  
-- Dark and Light mode support  
-- Save posts for later  
-
----
-
-## Tech Stack
+## Tech Stack 🛠️
 
 - **Frontend:** React, TailwindCSS  
 - **Backend:** Supabase (Authentication + Database)  
-- **News API:** Via proxy server  
+- **News API:** NewsData.io via Node.js proxy server  
 - **Deployment:** Vercel / Netlify  
 
 ---
 
-## Setup
+## Setup 🚀
 
 1. Clone the repo:  
    ```bash
    git clone https://github.com/YOUR_USERNAME/openvoice.git
    cd openvoice
-   Install dependencies:
-   bash
-   Copy code
-   npm install
+Install dependencies:
+npm install
 
+Add .env file(s) with your keys:
+# Supabase
+REACT_APP_SUPABASE_URL=YOUR_SUPABASE_URL
+REACT_APP_SUPABASE_ANON_KEY=YOUR_SUPABASE_ANON_KEY
+# News Proxy
+NEWS_API_KEY=YOUR_NEWS_API_KEY
+PORT=5050
 
+Run the development server:
+
+npm start ```
 ---
+
