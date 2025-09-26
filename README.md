@@ -75,6 +75,9 @@ PORT=5050
 npm start
  ```
 ---
+---
+## 👤 Author
+- Syed Abdul Waheed
 
 
 
